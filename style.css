@@ -37,6 +37,21 @@ body {
   font-weight: 700;
 }
 
+.profile-row {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.profile-pic {
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #0077ff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
 .title {
   color: #0077ff;
   font-weight: 600;
